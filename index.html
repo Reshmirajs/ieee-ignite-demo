@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IEEE Ignite | IEEE Student Branch LBSITW</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="hero" id="home">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#home">IEEE Ignite</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-controls="navLinks" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About IEEE</a>
+        <a href="#events">Events</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </nav>
+    <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-label="Toggle navigation" aria-controls="navLinks" aria-expanded="false">☰</button>
+
+    <div class="hero-content">
+      <p class="eyebrow">IEEE Student Branch LBSITW presents</p>
+      <h1>Ignite</h1>
+      <p class="tagline">Sparking innovation, learning, and collaboration among students.</p>
+      <div class="event-meta">
+        <div><span>Date</span><strong>29 July 2026</strong></div>
+        <div><span>Venue</span><strong>IEEE Seminar Hall, LBSITW</strong></div>
+      </div>
+      <p class="intro">
+        Join a day of hands-on learning, creative problem-solving, and professional growth with students,
+        mentors, and tech enthusiasts from across campus.
+      </p>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="section-kicker">About IEEE</p>
+        <h2>Who we are and why Ignite exists</h2>
+      </div>
+      <div class="about-grid">
+        <article class="info-card">
+          <h3>IEEE</h3>
+          <p>
+            IEEE is the world’s largest technical professional organization dedicated to advancing technology
+            for the benefit of humanity.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>IEEE Student Branch LBSITW</h3>
+          <p>
+            The student branch encourages engineering students to explore emerging technologies, build projects,
+            and connect with a wider technical community.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>Objective of Ignite</h3>
+          <p>
+            Ignite is designed to combine technical knowledge, career readiness, and interactive challenges into a
+            single event that motivates students to learn by doing.
+          </p>
+          <div class="social-links">
+            <a href="https://ieeesblbsitw.org/" target="_blank" rel="noopener noreferrer">IEEE SB LBSITW</a>
+            <a href="https://www.instagram.com/ieee_sb_lbsitw/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.linkedin.com/company/ieee-sb-lbsitw/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="events">
+      <div class="section-heading">
+        <p class="section-kicker">Events</p>
+        <h2>Explore the Ignite lineup</h2>
+      </div>
+
+      <div class="toolbar">
+        <div class="filters" role="tablist" aria-label="Event categories">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="Technical">Technical</button>
+          <button class="filter-btn" data-filter="Professional">Professional</button>
+          <button class="filter-btn" data-filter="Interactive">Interactive</button>
+        </div>
+        <label class="search-wrap" for="searchInput">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Search events by name" />
+        </label>
+      </div>
+
+      <div class="event-grid" id="eventGrid">
+        <article class="event-card" data-category="Technical" data-name="Web Development Workshop">
+          <span class="category">Technical</span>
+          <h3>Web Development Workshop</h3>
+          <p>Build responsive interfaces and learn the basics of modern web development.</p>
+        </article>
+        <article class="event-card" data-category="Technical" data-name="AI & Machine Learning Session">
+          <span class="category">Technical</span>
+          <h3>AI & Machine Learning Session</h3>
+          <p>Get introduced to intelligent systems, data pipelines, and practical ML workflows.</p>
+        </article>
+        <article class="event-card" data-category="Technical" data-name="Coding Challenge">
+          <span class="category">Technical</span>
+          <h3>Coding Challenge</h3>
+          <p>Solve algorithmic problems under time pressure and sharpen your problem-solving skills.</p>
+        </article>
+        <article class="event-card" data-category="Professional" data-name="Resume Building">
+          <span class="category">Professional</span>
+          <h3>Resume Building</h3>
+          <p>Learn how to structure a strong resume that communicates your strengths clearly.</p>
+        </article>
+        <article class="event-card" data-category="Professional" data-name="LinkedIn & Networking Workshop">
+          <span class="category">Professional</span>
+          <h3>LinkedIn & Networking Workshop</h3>
+          <p>Improve your digital profile and understand how to build meaningful professional connections.</p>
+        </article>
+        <article class="event-card" data-category="Professional" data-name="Career Guidance Talk">
+          <span class="category">Professional</span>
+          <h3>Career Guidance Talk</h3>
+          <p>Hear practical advice about internships, placements, and long-term career planning.</p>
+        </article>
+        <article class="event-card" data-category="Interactive" data-name="Tech Quiz">
+          <span class="category">Interactive</span>
+          <h3>Tech Quiz</h3>
+          <p>Test your knowledge across programming, gadgets, and emerging technologies.</p>
+        </article>
+        <article class="event-card" data-category="Interactive" data-name="Innovation Pitch">
+          <span class="category">Interactive</span>
+          <h3>Innovation Pitch</h3>
+          <p>Present a creative idea and convince the judges with clarity, impact, and vision.</p>
+        </article>
+        <article class="event-card" data-category="Interactive" data-name="Problem-Solving Challenge">
+          <span class="category">Interactive</span>
+          <h3>Problem-Solving Challenge</h3>
+          <p>Work in teams to tackle a real-world scenario using logic, collaboration, and creativity.</p>
+        </article>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No events match your search.</p>
+    </section>
+
+    <section class="section schedule" id="schedule">
+      <div class="section-heading">
+        <p class="section-kicker">Schedule</p>
+        <h2>Event timetable</h2>
+      </div>
+      <div class="schedule-table-wrap">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Activity</th>
+              <th>Category</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>9:00 AM</td><td>Registration & Welcome</td><td>All</td></tr>
+            <tr><td>9:30 AM</td><td>Inaugural Session</td><td>All</td></tr>
+            <tr><td>10:00 AM</td><td>Web Development Workshop</td><td>Technical</td></tr>
+            <tr><td>11:15 AM</td><td>AI & Machine Learning Session</td><td>Technical</td></tr>
+            <tr><td>12:30 PM</td><td>Resume Building</td><td>Professional</td></tr>
+            <tr><td>1:30 PM</td><td>Lunch Break</td><td>All</td></tr>
+            <tr><td>2:15 PM</td><td>Tech Quiz</td><td>Interactive</td></tr>
+            <tr><td>3:00 PM</td><td>Innovation Pitch</td><td>Interactive</td></tr>
+            <tr><td>4:00 PM</td><td>Closing & Awards</td><td>All</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-heading">
+        <p class="section-kicker">FAQ</p>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Who can participate in IEEE Ignite?</summary>
+          <p>Ignite is open to students from all branches who are interested in technology, career growth, and teamwork.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do I need to register for every event?</summary>
+          <p>You can register for selected events or participate in the full event lineup, depending on availability.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Will participation certificates be provided?</summary>
+          <p>Yes, participation certificates can be issued for attendees based on the event guidelines.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is there any prior technical experience required?</summary>
+          <p>No prior experience is required for most sessions. The activities are designed to be beginner-friendly.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>IEEE Ignite | IEEE Student Branch LBSITW</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
