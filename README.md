@@ -62,10 +62,3 @@ npx http-server
 ### Method 2: Direct Execution
 Simply open the `index.html` file in any modern web browser (Chrome, Firefox, Safari, Edge) by double-clicking it.
 
----
-
-## 📜 License & SB Info
-
-This project is maintained by **IEEE Student Branch LBSITW**. All rights reserved.
-
-For inquiries, feel free to visit the official [IEEE SB LBSITW Website](https://ieeesblbsitw.org/) or connect on [LinkedIn](https://www.linkedin.com/company/ieee-sb-lbsitw/).
